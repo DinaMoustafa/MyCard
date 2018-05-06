@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyCard</string>
+    <string name="can">can</string>
+    <string name="draw">draw</string>
+    <string name="from_dina">From, Dina</string>
+    <string name="everyone">Everyone</string>
+</resources>

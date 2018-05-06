@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+     <RelativeLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:context="com.example.dina.mycard.MainActivity">
+
+    <ImageView
+        android:src="@drawable/alberteinstein"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+
+
+   <TextView
+       android:id="@+id/everyone_text_view"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/everyone"
+       android:textColor="@color/purple1"
+       android:textSize="@dimen/text_size"
+       android:textStyle="bold"
+       android:fontFamily="cursive"
+       android:layout_marginLeft="16dp"/>
+
+
+
+    <TextView
+        android:id="@+id/can_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/can"
+        android:paddingLeft="40dp"
+        android:textColor="#6A1B9A"
+        android:textSize="@dimen/text_size"
+        android:layout_below="@id/everyone_text_view"
+        android:textStyle="bold"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:id="@+id/draw_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/draw"
+        android:paddingLeft="60dp"
+        android:textColor="@color/purple2"
+        android:textSize="@dimen/text_size"
+        android:layout_below="@id/can_textView"
+        android:textStyle="bold"
+        android:fontFamily="cursive"/>
+
+
+   <TextView
+       android:text="@string/from_dina"
+       android:textColor="@color/black"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:textSize="@dimen/text_size"
+       android:textStyle="bold"
+       android:layout_marginLeft="16dp"
+
+       />
+
+
+    </RelativeLayout>
